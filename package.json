@@ -4,7 +4,8 @@
   "description": "react ",
   "main": "index.js",
   "scripts": {
-    "format":"prettier --write \"src/**/*.{js,jsx}\""
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+      "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,8 @@
   },
   "homepage": "https://github.com/shahab7758/reacts-v6#readme",
   "devDependencies": {
+    "eslint": "^7.18.0",
+    "eslint-config-prettier": "^8.1.0",
     "prettier": "^2.3.0"
   }
 }
