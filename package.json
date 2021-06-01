@@ -4,8 +4,9 @@
   "description": "react ",
   "main": "index.js",
   "scripts": {
+    "dev": "parcel src/index.html",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
-      "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,11 @@
   "devDependencies": {
     "eslint": "^7.18.0",
     "eslint-config-prettier": "^8.1.0",
+    "parcel": "^1.12.3",
     "prettier": "^2.3.0"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   }
 }
