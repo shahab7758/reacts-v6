@@ -17,6 +17,9 @@ class Details extends Component {
     }
 
     render() {
+        if (this.state.loading) {
+            return <h2>Loading...</h2>
+        }
         const { name, animal, breed, city, state, description, } = this.state;
         return (
             <div className='details'>
